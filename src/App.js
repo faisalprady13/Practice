@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import Title from "./components/fixedBackground/Title/Title";
+import FixedBackground from "./components/FixedBackground/FixedBackground";
 
 function App() {
   return (
     <div className="App">
-      <p>FIXED BACKGROUND</p>
-      <Title name="color-background" />
-      <Title name="food-background" />
-      <Title name="car-background" />
+      <FixedBackground />
     </div>
   );
 }
