@@ -1,11 +1,14 @@
 import React from "react";
-import "./App.css";
-import FixedBackground from "./components/FixedBackground/FixedBackground";
+import "./assets/scss/main.scss";
+import AnimateOnScroll from "./components/AnimateOnScroll/AnimateOnScroll";
+import BlobBackground from "./components/BlobBackground/BlobBackground";
 
+//Choose the project from the "components" folder to see the example
 function App() {
   return (
     <div className="App">
-      <FixedBackground />
+      <BlobBackground />
+      <AnimateOnScroll />
     </div>
   );
 }
