@@ -5,12 +5,11 @@ import Zoom from "react-reveal/Zoom";
 const AnimateOnScroll = () => {
   return (
     <div>
-      <p>FIXED BACKGROUND</p>
       <Zoom>
-        <Title name="food-background" />
+        <Title sectionTitle="food-background" />
       </Zoom>
-      <Title name="color-background" />
-      <Title name="car-background" />
+      <Title sectionTitle="color-background" />
+      <Title sectionTitle="car-background" />
     </div>
   );
 };

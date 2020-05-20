@@ -1,10 +1,10 @@
 import React from "react";
 import "./title.scss";
 
-const Title = ({ name }) => {
+const Title = ({ sectionTitle }) => {
   return (
-    <div className={`background ${name}`}>
-      <h1 className="white-title">{name}</h1>
+    <div className={`background ${sectionTitle}`}>
+      <h1 className="white-title">{sectionTitle}</h1>
     </div>
   );
 };
