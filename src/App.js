@@ -8,8 +8,8 @@ import WavyBackground from "./components/WavyBackground/WavyBackground";
 function App() {
   return (
     <div className="App">
-      <WavyBackground />
       <BlobBackground />
+      <WavyBackground />
       <AnimateOnScroll />
     </div>
   );
